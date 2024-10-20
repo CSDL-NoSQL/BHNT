@@ -2,105 +2,102 @@
 using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BaoHiemNhanTho
 {
     public class Customer
     {
         [BsonId]
-        public ObjectId Id { get; set; }
+        public ObjectId id { get; set; }
 
-        public string CustomerId { get; set; }
+        public string customerId { get; set; }
 
-        public Name Name { get; set; }
+        public Name name { get; set; }
 
-        public DateTime Dob { get; set; }
+        public DateTime dob { get; set; }
 
-        public string Gender { get; set; }
+        public string gender { get; set; }
 
-        public Address Address { get; set; }
+        public Address address { get; set; }
 
-        public string PhoneNumber { get; set; }
+        public string phoneNumber { get; set; }
 
-        public string Email { get; set; }
+        public string email { get; set; }
 
-        public List<InsurancePolicy> InsurancePolicies { get; set; }
+        public List<InsurancePolicy> insurancePolicies { get; set; }
 
-        public List<Payment> Payments { get; set; }
+        public List<Payment> payments { get; set; }
     }
 
     public class Name
     {
-        public string FirstName { get; set; }
+        public string firstName { get; set; }
 
-        public string LastName { get; set; }
+        public string lastName { get; set; }
     }
 
     public class Address
     {
-        public string Street { get; set; }
+        public string street { get; set; }
 
-        public string City { get; set; }
+        public string city { get; set; }
 
-        public string Country { get; set; }
+        public string country { get; set; }
     }
 
     public class InsurancePolicy
     {
-        public ObjectId PolicyId { get; set; }
+        public ObjectId policyId { get; set; }
 
-        public string PolicyNumber { get; set; }
+        public string policyNumber { get; set; }
 
-        public string PolicyType { get; set; }
+        public string policyType { get; set; }
 
-        public DateTime StartDate { get; set; }
+        public DateTime startDate { get; set; }
 
-        public DateTime EndDate { get; set; }
+        public DateTime endDate { get; set; }
 
-        public decimal Premium { get; set; }
+        public decimal premium { get; set; }
 
-        public decimal CoverageAmount { get; set; }
+        public decimal coverageAmount { get; set; }
 
-        public List<Beneficiary> Beneficiaries { get; set; }
+        public List<Beneficiary> beneficiaries { get; set; }
 
-        public List<Claim> Claims { get; set; }
+        public List<Claim> claims { get; set; }
     }
 
     public class Beneficiary
     {
-        public string Name { get; set; }
+        public string name { get; set; }
 
-        public string Relationship { get; set; }
+        public string relationship { get; set; }
 
-        public int Percentage { get; set; }
+        public int percentage { get; set; }
     }
 
     public class Claim
     {
-        public ObjectId ClaimId { get; set; }
+        public ObjectId claimId { get; set; }
 
-        public string ClaimNumber { get; set; }
+        public string claimNumber { get; set; }
 
-        public DateTime DateOfClaim { get; set; }
+        public DateTime dateOfClaim { get; set; }
 
-        public decimal ClaimAmount { get; set; }
+        public decimal claimAmount { get; set; }
 
-        public string Status { get; set; }
+        public string status { get; set; }
 
-        public string Description { get; set; }
+        public string description { get; set; }
     }
 
     public class Payment
     {
-        public ObjectId PaymentId { get; set; }
+        public ObjectId paymentId { get; set; }
 
-        public decimal Amount { get; set; }
+        public decimal amount { get; set; }
 
-        public DateTime PaymentDate { get; set; }
+        public DateTime paymentDate { get; set; }
 
-        public string PaymentMethod { get; set; }
+        public string paymentMethod { get; set; }
     }
 }
