@@ -42,6 +42,12 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtCountry = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtStreet = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -56,12 +62,6 @@
             this.dd = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.txtFirstName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtCity = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtCountry = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSKhachHang)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -115,6 +115,7 @@
             this.button7.TabIndex = 4;
             this.button7.Text = "Lưu";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -126,6 +127,7 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "Sửa";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -137,6 +139,7 @@
             this.button9.TabIndex = 2;
             this.button9.Text = "Xóa";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button11
             // 
@@ -148,6 +151,7 @@
             this.button11.TabIndex = 0;
             this.button11.Text = "Thêm";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // groupBox1
             // 
@@ -229,6 +233,54 @@
             this.groupBox3.TabIndex = 27;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
+            // 
+            // txtCountry
+            // 
+            this.txtCountry.Location = new System.Drawing.Point(466, 179);
+            this.txtCountry.Name = "txtCountry";
+            this.txtCountry.Size = new System.Drawing.Size(100, 22);
+            this.txtCountry.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(397, 185);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(52, 16);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Country";
+            // 
+            // txtCity
+            // 
+            this.txtCity.Location = new System.Drawing.Point(545, 135);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(100, 22);
+            this.txtCity.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(499, 138);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "City";
+            // 
+            // txtFirstName
+            // 
+            this.txtFirstName.Location = new System.Drawing.Point(131, 68);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(100, 22);
+            this.txtFirstName.TabIndex = 13;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(56, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 16);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "FirstName";
             // 
             // txtStreet
             // 
@@ -348,54 +400,6 @@
             this.button2.Text = "Thêm Hồ Sơ";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // txtFirstName
-            // 
-            this.txtFirstName.Location = new System.Drawing.Point(131, 68);
-            this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(100, 22);
-            this.txtFirstName.TabIndex = 13;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 16);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "FirstName";
-            // 
-            // txtCity
-            // 
-            this.txtCity.Location = new System.Drawing.Point(545, 135);
-            this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(100, 22);
-            this.txtCity.TabIndex = 15;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(499, 138);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 16);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "City";
-            // 
-            // txtCountry
-            // 
-            this.txtCountry.Location = new System.Drawing.Point(466, 179);
-            this.txtCountry.Name = "txtCountry";
-            this.txtCountry.Size = new System.Drawing.Size(100, 22);
-            this.txtCountry.TabIndex = 17;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(397, 185);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 16);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Country";
             // 
             // frmKhachHang
             // 

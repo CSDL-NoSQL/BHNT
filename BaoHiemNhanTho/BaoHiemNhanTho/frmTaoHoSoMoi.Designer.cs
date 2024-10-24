@@ -47,7 +47,27 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
             this.dd = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtCoverageAmount = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtPremium = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dtpEndDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtPolicyType = new System.Windows.Forms.TextBox();
+            this.aa = new System.Windows.Forms.Label();
+            this.txtPolicyNumber = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dgvBeneficiaries = new System.Windows.Forms.DataGridView();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.beneficiaryname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.relationship = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.percentage = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBeneficiaries)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox3
@@ -70,7 +90,7 @@
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.txtCustomerID);
             this.groupBox3.Controls.Add(this.dd);
-            this.groupBox3.Location = new System.Drawing.Point(34, 35);
+            this.groupBox3.Location = new System.Drawing.Point(12, 26);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(763, 230);
             this.groupBox3.TabIndex = 28;
@@ -221,17 +241,185 @@
             this.dd.TabIndex = 0;
             this.dd.Text = "CustomerID";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtCoverageAmount);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.txtPremium);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.dtpEndDate);
+            this.groupBox1.Controls.Add(this.dtpStartDate);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.txtPolicyType);
+            this.groupBox1.Controls.Add(this.aa);
+            this.groupBox1.Controls.Add(this.txtPolicyNumber);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Location = new System.Drawing.Point(12, 262);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(763, 199);
+            this.groupBox1.TabIndex = 29;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // txtCoverageAmount
+            // 
+            this.txtCoverageAmount.Location = new System.Drawing.Point(551, 91);
+            this.txtCoverageAmount.Name = "txtCoverageAmount";
+            this.txtCoverageAmount.Size = new System.Drawing.Size(100, 22);
+            this.txtCoverageAmount.TabIndex = 13;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(421, 94);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(124, 16);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "txtCoverageAmount";
+            // 
+            // txtPremium
+            // 
+            this.txtPremium.Location = new System.Drawing.Point(551, 51);
+            this.txtPremium.Name = "txtPremium";
+            this.txtPremium.Size = new System.Drawing.Size(100, 22);
+            this.txtPremium.TabIndex = 11;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(421, 54);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 16);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "txtPremium";
+            // 
+            // dtpEndDate
+            // 
+            this.dtpEndDate.Location = new System.Drawing.Point(151, 163);
+            this.dtpEndDate.Name = "dtpEndDate";
+            this.dtpEndDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpEndDate.TabIndex = 9;
+            // 
+            // dtpStartDate
+            // 
+            this.dtpStartDate.Location = new System.Drawing.Point(151, 135);
+            this.dtpStartDate.Name = "dtpStartDate";
+            this.dtpStartDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpStartDate.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(50, 163);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(79, 16);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "dtpEndDate";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(50, 135);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 16);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "dtpStartDate";
+            // 
+            // txtPolicyType
+            // 
+            this.txtPolicyType.Location = new System.Drawing.Point(151, 91);
+            this.txtPolicyType.Name = "txtPolicyType";
+            this.txtPolicyType.Size = new System.Drawing.Size(100, 22);
+            this.txtPolicyType.TabIndex = 3;
+            // 
+            // aa
+            // 
+            this.aa.AutoSize = true;
+            this.aa.Location = new System.Drawing.Point(50, 94);
+            this.aa.Name = "aa";
+            this.aa.Size = new System.Drawing.Size(88, 16);
+            this.aa.TabIndex = 2;
+            this.aa.Text = "txtPolicyType";
+            // 
+            // txtPolicyNumber
+            // 
+            this.txtPolicyNumber.Location = new System.Drawing.Point(151, 51);
+            this.txtPolicyNumber.Name = "txtPolicyNumber";
+            this.txtPolicyNumber.Size = new System.Drawing.Size(100, 22);
+            this.txtPolicyNumber.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(50, 54);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 16);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Policy Number";
+            // 
+            // dgvBeneficiaries
+            // 
+            this.dgvBeneficiaries.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBeneficiaries.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.beneficiaryname,
+            this.relationship,
+            this.percentage});
+            this.dgvBeneficiaries.Location = new System.Drawing.Point(12, 467);
+            this.dgvBeneficiaries.Name = "dgvBeneficiaries";
+            this.dgvBeneficiaries.RowHeadersWidth = 51;
+            this.dgvBeneficiaries.RowTemplate.Height = 24;
+            this.dgvBeneficiaries.Size = new System.Drawing.Size(763, 192);
+            this.dgvBeneficiaries.TabIndex = 30;
+            // 
+            // btnThem
+            // 
+            this.btnThem.Location = new System.Drawing.Point(824, 138);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(193, 108);
+            this.btnThem.TabIndex = 31;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.ssa_Click);
+            // 
+            // beneficiaryname
+            // 
+            this.beneficiaryname.HeaderText = "Beneficiary Name";
+            this.beneficiaryname.MinimumWidth = 6;
+            this.beneficiaryname.Name = "beneficiaryname";
+            this.beneficiaryname.Width = 125;
+            // 
+            // relationship
+            // 
+            this.relationship.HeaderText = "Relationship";
+            this.relationship.MinimumWidth = 6;
+            this.relationship.Name = "relationship";
+            this.relationship.Width = 125;
+            // 
+            // percentage
+            // 
+            this.percentage.HeaderText = "Percentage";
+            this.percentage.MinimumWidth = 6;
+            this.percentage.Name = "percentage";
+            this.percentage.Width = 125;
+            // 
             // frmTaoHoSoMoi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1047, 450);
+            this.ClientSize = new System.Drawing.Size(1170, 671);
+            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.dgvBeneficiaries);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Name = "frmTaoHoSoMoi";
             this.Text = "frmTaoHoSoMoi";
             this.Load += new System.EventHandler(this.frmTaoHoSoMoi_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBeneficiaries)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -257,5 +445,23 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtCustomerID;
         private System.Windows.Forms.Label dd;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtPolicyType;
+        private System.Windows.Forms.Label aa;
+        private System.Windows.Forms.TextBox txtPolicyNumber;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DateTimePicker dtpEndDate;
+        private System.Windows.Forms.DateTimePicker dtpStartDate;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtCoverageAmount;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtPremium;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.DataGridView dgvBeneficiaries;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn beneficiaryname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn relationship;
+        private System.Windows.Forms.DataGridViewTextBoxColumn percentage;
     }
 }
