@@ -160,6 +160,13 @@
     <Compile Include="frmClaim.Designer.cs">
       <DependentUpon>frmClaim.cs</DependentUpon>
 
+
+    <Compile Include="frmClaim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClaim.Designer.cs">
+      <DependentUpon>frmClaim.cs</DependentUpon>
+
     <Compile Include="frmBaoCaoThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,11 +187,19 @@
     <Compile Include="frmDoiMatKhau.Designer.cs">
       <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
 
+
+    <Compile Include="frmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoiMatKhau.Designer.cs">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+
     <Compile Include="frmHoTro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmHoTro.Designer.cs">
       <DependentUpon>frmHoTro.cs</DependentUpon>
+
 
     </Compile>
     <Compile Include="frmKhachHang.cs">
@@ -241,13 +256,22 @@
     <EmbeddedResource Include="frmClaim.resx">
       <DependentUpon>frmClaim.cs</DependentUpon>
 
+
+    <EmbeddedResource Include="frmClaim.resx">
+      <DependentUpon>frmClaim.cs</DependentUpon>
+
     <EmbeddedResource Include="frmBaoCaoThongKe.resx">
       <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
+
 
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+
 
     <EmbeddedResource Include="frmDoiMatKhau.resx">
       <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
