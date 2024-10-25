@@ -37,8 +37,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioTen = new System.Windows.Forms.RadioButton();
+            this.radioTheoSDT = new System.Windows.Forms.RadioButton();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -156,8 +156,8 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioTen);
+            this.groupBox1.Controls.Add(this.radioTheoSDT);
             this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Location = new System.Drawing.Point(40, 311);
             this.groupBox1.Name = "groupBox1";
@@ -176,29 +176,29 @@
             this.label9.TabIndex = 34;
             this.label9.Text = "Tìm kiếm:";
             // 
-            // radioButton2
+            // radioTen
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton2.Location = new System.Drawing.Point(666, 28);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(95, 20);
-            this.radioButton2.TabIndex = 33;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Theo Tên";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioTen.AutoSize = true;
+            this.radioTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.radioTen.Location = new System.Drawing.Point(699, 28);
+            this.radioTen.Name = "radioTen";
+            this.radioTen.Size = new System.Drawing.Size(95, 20);
+            this.radioTen.TabIndex = 33;
+            this.radioTen.TabStop = true;
+            this.radioTen.Text = "Theo Tên";
+            this.radioTen.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioTheoSDT
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton1.Location = new System.Drawing.Point(534, 28);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(89, 20);
-            this.radioButton1.TabIndex = 32;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Theo Mã";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioTheoSDT.AutoSize = true;
+            this.radioTheoSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.radioTheoSDT.Location = new System.Drawing.Point(518, 28);
+            this.radioTheoSDT.Name = "radioTheoSDT";
+            this.radioTheoSDT.Size = new System.Drawing.Size(159, 20);
+            this.radioTheoSDT.TabIndex = 32;
+            this.radioTheoSDT.TabStop = true;
+            this.radioTheoSDT.Text = "Theo Số điện thoại";
+            this.radioTheoSDT.UseVisualStyleBackColor = true;
             // 
             // textBox6
             // 
@@ -206,6 +206,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(353, 22);
             this.textBox6.TabIndex = 31;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // groupBox3
             // 
@@ -437,8 +438,8 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioTen;
+        private System.Windows.Forms.RadioButton radioTheoSDT;
         private System.Windows.Forms.TextBox textBox6;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.GroupBox groupBox3;

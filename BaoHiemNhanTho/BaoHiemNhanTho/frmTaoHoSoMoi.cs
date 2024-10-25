@@ -127,8 +127,9 @@ namespace BaoHiemNhanTho
             }
         }
 
+        private void dgvBeneficiaries_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-
-
+        }
     }
 }

@@ -266,5 +266,41 @@ namespace BaoHiemNhanTho
             
             isAddingNewCustomer = false;
         }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            string searchText = textBox6.Text;
+
+            if (radioTheoSDT.Checked) // Tìm theo số điện thoại
+            {
+                var filter = Builders<Customer>.Filter.Regex(c => c.phoneNumber, new MongoDB.Bson.BsonRegularExpression(searchText, "i"));
+                var customers = _customerCollection.Find(filter).ToList();
+                LoadCustomersToGrid(customers);
+            }
+            else if (radioTen.Checked) // Tìm theo tên
+            {
+                var filter = Builders<Customer>.Filter.Or(
+                    Builders<Customer>.Filter.Regex(c => c.name.firstName, new MongoDB.Bson.BsonRegularExpression(searchText, "i")),
+                    Builders<Customer>.Filter.Regex(c => c.name.lastName, new MongoDB.Bson.BsonRegularExpression(searchText, "i"))
+                );
+                var customers = _customerCollection.Find(filter).ToList();
+                LoadCustomersToGrid(customers);
+            }
+        }
+
+        // Hàm để load danh sách khách hàng vào DataGridView
+        private void LoadCustomersToGrid(List<Customer> customers)
+        {
+            dgvDSKhachHang.DataSource = customers.Select(c => new
+            {
+                CustomerId = c.customerId,
+                FullName = c.name.firstName + " " + c.name.lastName,
+                Gender = c.gender,
+                Phone = c.phoneNumber,
+                Email = c.email,
+                Address = c.address.street + ", " + c.address.city + ", " + c.address.country
+            }).ToList();
+        }
+
     }
 }

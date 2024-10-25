@@ -31,326 +31,372 @@
             this.comboBoxKhachHang = new System.Windows.Forms.ComboBox();
             this.dataGridViewNguoiThan = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txtCustomerId = new System.Windows.Forms.Label();
+            this.dataGridViewInsurancePolicies = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtCoverageAmount = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtPremium = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dtpEndDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtPolicyType = new System.Windows.Forms.TextBox();
+            this.aa = new System.Windows.Forms.Label();
+            this.txtPolicyNumber = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtRelationship = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtBeneficiaryName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtPercentage = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.buttonEditBeneficiary = new System.Windows.Forms.Button();
+            this.buttonDeleteBeneficiary = new System.Windows.Forms.Button();
+            this.buttonAddPolicy = new System.Windows.Forms.Button();
+            this.buttonAddBeneficiary = new System.Windows.Forms.Button();
+            this.buttonEditPolicy = new System.Windows.Forms.Button();
+            this.buttonDeletePolicy = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNguoiThan)).BeginInit();
-            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInsurancePolicies)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // comboBoxKhachHang
             // 
             this.comboBoxKhachHang.FormattingEnabled = true;
-            this.comboBoxKhachHang.Location = new System.Drawing.Point(90, 352);
+            this.comboBoxKhachHang.Location = new System.Drawing.Point(34, 372);
             this.comboBoxKhachHang.Name = "comboBoxKhachHang";
-            this.comboBoxKhachHang.Size = new System.Drawing.Size(797, 24);
+            this.comboBoxKhachHang.Size = new System.Drawing.Size(626, 24);
             this.comboBoxKhachHang.TabIndex = 0;
             this.comboBoxKhachHang.SelectedIndexChanged += new System.EventHandler(this.comboBoxKhachHang_SelectedIndexChanged);
             // 
             // dataGridViewNguoiThan
             // 
             this.dataGridViewNguoiThan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewNguoiThan.Location = new System.Drawing.Point(72, 382);
+            this.dataGridViewNguoiThan.Location = new System.Drawing.Point(691, 402);
             this.dataGridViewNguoiThan.Name = "dataGridViewNguoiThan";
             this.dataGridViewNguoiThan.RowHeadersWidth = 51;
             this.dataGridViewNguoiThan.RowTemplate.Height = 24;
-            this.dataGridViewNguoiThan.Size = new System.Drawing.Size(797, 170);
+            this.dataGridViewNguoiThan.Size = new System.Drawing.Size(364, 188);
             this.dataGridViewNguoiThan.TabIndex = 1;
+            this.dataGridViewNguoiThan.RowValidating += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dataGridViewNguoiThan_RowValidating);
+            this.dataGridViewNguoiThan.SelectionChanged += new System.EventHandler(this.dataGridViewNguoiThan_SelectionChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(233, 44);
+            this.label7.Location = new System.Drawing.Point(355, 25);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(411, 42);
+            this.label7.Size = new System.Drawing.Size(575, 42);
             this.label7.TabIndex = 32;
-            this.label7.Text = "Thông Tin Người Thân";
+            this.label7.Text = "Quản lý bảo hiểm và người thân";
             // 
-            // groupBox3
+            // dataGridViewInsurancePolicies
             // 
-            this.groupBox3.Controls.Add(this.textBox4);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.txtCustomerId);
-            this.groupBox3.Location = new System.Drawing.Point(79, 98);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(808, 149);
-            this.groupBox3.TabIndex = 31;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(445, 112);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 11;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(376, 115);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(445, 65);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(376, 68);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "label5";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(445, 26);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(376, 29);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "label6";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(131, 112);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(62, 115);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(131, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(131, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
-            // 
-            // txtCustomerId
-            // 
-            this.txtCustomerId.AutoSize = true;
-            this.txtCustomerId.Location = new System.Drawing.Point(62, 29);
-            this.txtCustomerId.Name = "txtCustomerId";
-            this.txtCustomerId.Size = new System.Drawing.Size(75, 16);
-            this.txtCustomerId.TabIndex = 0;
-            this.txtCustomerId.Text = "CustomerId";
+            this.dataGridViewInsurancePolicies.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewInsurancePolicies.Location = new System.Drawing.Point(34, 402);
+            this.dataGridViewInsurancePolicies.Name = "dataGridViewInsurancePolicies";
+            this.dataGridViewInsurancePolicies.RowHeadersWidth = 51;
+            this.dataGridViewInsurancePolicies.RowTemplate.Height = 24;
+            this.dataGridViewInsurancePolicies.Size = new System.Drawing.Size(626, 188);
+            this.dataGridViewInsurancePolicies.TabIndex = 33;
+            this.dataGridViewInsurancePolicies.SelectionChanged += new System.EventHandler(this.dataGridViewInsurancePolicies_SelectionChanged);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtCoverageAmount);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.txtPremium);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.dtpEndDate);
+            this.groupBox1.Controls.Add(this.dtpStartDate);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Location = new System.Drawing.Point(79, 253);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.txtPolicyType);
+            this.groupBox1.Controls.Add(this.aa);
+            this.groupBox1.Controls.Add(this.txtPolicyNumber);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(34, 86);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(808, 69);
-            this.groupBox1.TabIndex = 30;
+            this.groupBox1.Size = new System.Drawing.Size(621, 247);
+            this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Tìm kiếm";
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // txtCoverageAmount
+            // 
+            this.txtCoverageAmount.Location = new System.Drawing.Point(507, 91);
+            this.txtCoverageAmount.Name = "txtCoverageAmount";
+            this.txtCoverageAmount.Size = new System.Drawing.Size(100, 22);
+            this.txtCoverageAmount.TabIndex = 13;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(377, 94);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(124, 16);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "txtCoverageAmount";
+            // 
+            // txtPremium
+            // 
+            this.txtPremium.Location = new System.Drawing.Point(507, 51);
+            this.txtPremium.Name = "txtPremium";
+            this.txtPremium.Size = new System.Drawing.Size(100, 22);
+            this.txtPremium.TabIndex = 11;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(377, 54);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 16);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "txtPremium";
+            // 
+            // dtpEndDate
+            // 
+            this.dtpEndDate.Location = new System.Drawing.Point(151, 163);
+            this.dtpEndDate.Name = "dtpEndDate";
+            this.dtpEndDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpEndDate.TabIndex = 9;
+            // 
+            // dtpStartDate
+            // 
+            this.dtpStartDate.Location = new System.Drawing.Point(151, 135);
+            this.dtpStartDate.Name = "dtpStartDate";
+            this.dtpStartDate.Size = new System.Drawing.Size(200, 22);
+            this.dtpStartDate.TabIndex = 8;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label9.Location = new System.Drawing.Point(24, 28);
+            this.label9.Location = new System.Drawing.Point(50, 163);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(82, 18);
-            this.label9.TabIndex = 34;
-            this.label9.Text = "Tìm kiếm:";
+            this.label9.Size = new System.Drawing.Size(79, 16);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "dtpEndDate";
             // 
-            // radioButton2
+            // label10
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton2.Location = new System.Drawing.Point(666, 28);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(95, 20);
-            this.radioButton2.TabIndex = 33;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Theo Tên";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(50, 135);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 16);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "dtpStartDate";
             // 
-            // radioButton1
+            // txtPolicyType
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton1.Location = new System.Drawing.Point(534, 28);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(89, 20);
-            this.radioButton1.TabIndex = 32;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Theo Mã";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.txtPolicyType.Location = new System.Drawing.Point(151, 91);
+            this.txtPolicyType.Name = "txtPolicyType";
+            this.txtPolicyType.Size = new System.Drawing.Size(100, 22);
+            this.txtPolicyType.TabIndex = 3;
             // 
-            // textBox6
+            // aa
             // 
-            this.textBox6.Location = new System.Drawing.Point(131, 27);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(353, 22);
-            this.textBox6.TabIndex = 31;
+            this.aa.AutoSize = true;
+            this.aa.Location = new System.Drawing.Point(50, 94);
+            this.aa.Name = "aa";
+            this.aa.Size = new System.Drawing.Size(88, 16);
+            this.aa.TabIndex = 2;
+            this.aa.Text = "txtPolicyType";
+            // 
+            // txtPolicyNumber
+            // 
+            this.txtPolicyNumber.Location = new System.Drawing.Point(151, 51);
+            this.txtPolicyNumber.Name = "txtPolicyNumber";
+            this.txtPolicyNumber.Size = new System.Drawing.Size(100, 22);
+            this.txtPolicyNumber.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(50, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Policy Number";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.txtPercentage);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.txtRelationship);
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.txtBeneficiaryName);
+            this.groupBox3.Location = new System.Drawing.Point(691, 99);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(364, 234);
+            this.groupBox3.TabIndex = 35;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "groupBox3";
+            // 
+            // txtRelationship
+            // 
+            this.txtRelationship.Location = new System.Drawing.Point(186, 81);
+            this.txtRelationship.Name = "txtRelationship";
+            this.txtRelationship.Size = new System.Drawing.Size(100, 22);
+            this.txtRelationship.TabIndex = 17;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(56, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "relationship";
+            // 
+            // txtBeneficiaryName
+            // 
+            this.txtBeneficiaryName.Location = new System.Drawing.Point(186, 41);
+            this.txtBeneficiaryName.Name = "txtBeneficiaryName";
+            this.txtBeneficiaryName.Size = new System.Drawing.Size(100, 22);
+            this.txtBeneficiaryName.TabIndex = 15;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(56, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 16);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Benefiname";
+            // 
+            // txtPercentage
+            // 
+            this.txtPercentage.Location = new System.Drawing.Point(186, 122);
+            this.txtPercentage.Name = "txtPercentage";
+            this.txtPercentage.Size = new System.Drawing.Size(100, 22);
+            this.txtPercentage.TabIndex = 19;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(56, 125);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 16);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "percentage";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.button7);
-            this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Controls.Add(this.button11);
-            this.groupBox2.Location = new System.Drawing.Point(989, 77);
+            this.groupBox2.Controls.Add(this.buttonEditPolicy);
+            this.groupBox2.Controls.Add(this.buttonDeletePolicy);
+            this.groupBox2.Controls.Add(this.buttonAddBeneficiary);
+            this.groupBox2.Controls.Add(this.buttonEditBeneficiary);
+            this.groupBox2.Controls.Add(this.buttonDeleteBeneficiary);
+            this.groupBox2.Controls.Add(this.buttonAddPolicy);
+            this.groupBox2.Location = new System.Drawing.Point(1146, 99);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(178, 401);
-            this.groupBox2.TabIndex = 29;
+            this.groupBox2.Size = new System.Drawing.Size(218, 453);
+            this.groupBox2.TabIndex = 36;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chức Năng";
             // 
-            // button1
+            // buttonEditBeneficiary
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(26, 260);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 52);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "      Làm Mới";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonEditBeneficiary.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonEditBeneficiary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditBeneficiary.Location = new System.Drawing.Point(26, 303);
+            this.buttonEditBeneficiary.Name = "buttonEditBeneficiary";
+            this.buttonEditBeneficiary.Size = new System.Drawing.Size(133, 52);
+            this.buttonEditBeneficiary.TabIndex = 3;
+            this.buttonEditBeneficiary.Text = "Sửa Người Thụ Hưởng";
+            this.buttonEditBeneficiary.UseVisualStyleBackColor = true;
+            this.buttonEditBeneficiary.Click += new System.EventHandler(this.buttonEditBeneficiary_Click);
             // 
-            // button7
+            // buttonDeleteBeneficiary
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(26, 322);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(133, 52);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "Lưu";
-            this.button7.UseVisualStyleBackColor = true;
+            this.buttonDeleteBeneficiary.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonDeleteBeneficiary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDeleteBeneficiary.Location = new System.Drawing.Point(26, 361);
+            this.buttonDeleteBeneficiary.Name = "buttonDeleteBeneficiary";
+            this.buttonDeleteBeneficiary.Size = new System.Drawing.Size(133, 52);
+            this.buttonDeleteBeneficiary.TabIndex = 2;
+            this.buttonDeleteBeneficiary.Text = "Xóa Người Thụ Hưởng";
+            this.buttonDeleteBeneficiary.UseVisualStyleBackColor = true;
+            this.buttonDeleteBeneficiary.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button8
+            // buttonAddPolicy
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(26, 146);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(133, 52);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "Sửa";
-            this.button8.UseVisualStyleBackColor = true;
+            this.buttonAddPolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonAddPolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAddPolicy.Location = new System.Drawing.Point(26, 30);
+            this.buttonAddPolicy.Name = "buttonAddPolicy";
+            this.buttonAddPolicy.Size = new System.Drawing.Size(133, 52);
+            this.buttonAddPolicy.TabIndex = 0;
+            this.buttonAddPolicy.Text = "Thêm Bảo Hiểm";
+            this.buttonAddPolicy.UseVisualStyleBackColor = true;
+            this.buttonAddPolicy.Click += new System.EventHandler(this.buttonAddPolicy_Click);
             // 
-            // button9
+            // buttonAddBeneficiary
             // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(26, 88);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(133, 52);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "Xóa";
-            this.button9.UseVisualStyleBackColor = true;
+            this.buttonAddBeneficiary.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonAddBeneficiary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAddBeneficiary.Location = new System.Drawing.Point(26, 245);
+            this.buttonAddBeneficiary.Name = "buttonAddBeneficiary";
+            this.buttonAddBeneficiary.Size = new System.Drawing.Size(149, 52);
+            this.buttonAddBeneficiary.TabIndex = 6;
+            this.buttonAddBeneficiary.Text = "Thêm Người Thụ Hưởng";
+            this.buttonAddBeneficiary.UseVisualStyleBackColor = true;
+            this.buttonAddBeneficiary.Click += new System.EventHandler(this.buttonAddBeneficiary_Click);
             // 
-            // button11
+            // buttonEditPolicy
             // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(26, 21);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(133, 52);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "Thêm";
-            this.button11.UseVisualStyleBackColor = true;
+            this.buttonEditPolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonEditPolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditPolicy.Location = new System.Drawing.Point(26, 86);
+            this.buttonEditPolicy.Name = "buttonEditPolicy";
+            this.buttonEditPolicy.Size = new System.Drawing.Size(133, 52);
+            this.buttonEditPolicy.TabIndex = 8;
+            this.buttonEditPolicy.Text = "Sửa Bảo Hiểm";
+            this.buttonEditPolicy.UseVisualStyleBackColor = true;
+            this.buttonEditPolicy.Click += new System.EventHandler(this.buttonEditPolicy_Click);
+            // 
+            // buttonDeletePolicy
+            // 
+            this.buttonDeletePolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonDeletePolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDeletePolicy.Location = new System.Drawing.Point(26, 144);
+            this.buttonDeletePolicy.Name = "buttonDeletePolicy";
+            this.buttonDeletePolicy.Size = new System.Drawing.Size(133, 52);
+            this.buttonDeletePolicy.TabIndex = 7;
+            this.buttonDeletePolicy.Text = "Xóa Bảo Hiểm";
+            this.buttonDeletePolicy.UseVisualStyleBackColor = true;
+            this.buttonDeletePolicy.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmThongTinNguoiThan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1882, 929);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.dataGridViewInsurancePolicies);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridViewNguoiThan);
             this.Controls.Add(this.comboBoxKhachHang);
             this.Name = "frmThongTinNguoiThan";
             this.Text = "frmThongTinNguoiThan";
             this.Load += new System.EventHandler(this.frmThongTinNguoiThan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNguoiThan)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInsurancePolicies)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -362,29 +408,33 @@
         private System.Windows.Forms.ComboBox comboBoxKhachHang;
         private System.Windows.Forms.DataGridView dataGridViewNguoiThan;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label txtCustomerId;
+        private System.Windows.Forms.DataGridView dataGridViewInsurancePolicies;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtCoverageAmount;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtPremium;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.DateTimePicker dtpEndDate;
+        private System.Windows.Forms.DateTimePicker dtpStartDate;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtPolicyType;
+        private System.Windows.Forms.Label aa;
+        private System.Windows.Forms.TextBox txtPolicyNumber;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox txtRelationship;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtBeneficiaryName;
+        private System.Windows.Forms.TextBox txtPercentage;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button buttonEditBeneficiary;
+        private System.Windows.Forms.Button buttonDeleteBeneficiary;
+        private System.Windows.Forms.Button buttonAddPolicy;
+        private System.Windows.Forms.Button buttonAddBeneficiary;
+        private System.Windows.Forms.Button buttonEditPolicy;
+        private System.Windows.Forms.Button buttonDeletePolicy;
     }
 }

@@ -61,10 +61,10 @@
             this.txtPolicyNumber = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.dgvBeneficiaries = new System.Windows.Forms.DataGridView();
-            this.btnThem = new System.Windows.Forms.Button();
             this.beneficiaryname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.relationship = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.percentage = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnThem = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBeneficiaries)).BeginInit();
@@ -371,16 +371,7 @@
             this.dgvBeneficiaries.RowTemplate.Height = 24;
             this.dgvBeneficiaries.Size = new System.Drawing.Size(763, 192);
             this.dgvBeneficiaries.TabIndex = 30;
-            // 
-            // btnThem
-            // 
-            this.btnThem.Location = new System.Drawing.Point(824, 138);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(193, 108);
-            this.btnThem.TabIndex = 31;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.ssa_Click);
+            this.dgvBeneficiaries.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBeneficiaries_CellContentClick);
             // 
             // beneficiaryname
             // 
@@ -402,6 +393,16 @@
             this.percentage.MinimumWidth = 6;
             this.percentage.Name = "percentage";
             this.percentage.Width = 125;
+            // 
+            // btnThem
+            // 
+            this.btnThem.Location = new System.Drawing.Point(824, 138);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(193, 108);
+            this.btnThem.TabIndex = 31;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.ssa_Click);
             // 
             // frmTaoHoSoMoi
             // 
