@@ -56,5 +56,40 @@ namespace BaoHiemNhanTho
             panel1.Controls.Add(formttnv);
             formttnv.Show();
         }
+
+        private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.BackgroundImage = null;
+            frmThongTinTaiKhoan formttnv = new frmThongTinTaiKhoan() { TopLevel = false, TopMost = true };
+            formttnv.FormBorderStyle = FormBorderStyle.None;
+            panel1.Controls.Add(formttnv);
+            formttnv.Show();
+        }
+
+        private void trangChủToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            //panel1.Controls.Add(pictureBox1);
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult ketqua;
+            ketqua = MessageBox.Show("Bạn có đồng ý đăng xuất ? ", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            {
+                if (ketqua == DialogResult.Yes)
+                {
+                    this.Hide();
+                    frmDangNhap frmlogin = new frmDangNhap();
+                    frmlogin.Show();
+                }
+            }
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

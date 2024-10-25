@@ -59,3 +59,5 @@ D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiem
 D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmThongTinNguoiThan.resources
 D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmThongTinBaoHiemSoHuu.resources
 D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmTaoHoSoMoi.resources
+D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmDangNhap.resources
+D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmThongTinTaiKhoan.resources
