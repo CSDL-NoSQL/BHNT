@@ -61,3 +61,6 @@ D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiem
 D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmTaoHoSoMoi.resources
 D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmDangNhap.resources
 D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmThongTinTaiKhoan.resources
+D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmClaim.resources
+D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmPayment.resources
+D:\E\DAI HOC\HK7\NoSQL\DoAn\BHNT\BaoHiemNhanTho\BaoHiemNhanTho\obj\Debug\BaoHiemNhanTho.frmDoiMatKhau.resources

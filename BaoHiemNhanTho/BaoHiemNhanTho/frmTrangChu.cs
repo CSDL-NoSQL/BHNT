@@ -91,5 +91,35 @@ namespace BaoHiemNhanTho
         {
             this.Close();
         }
+
+        private void thôngTinBồiThườngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.BackgroundImage = null;
+            frmClaim formttnv = new frmClaim() { TopLevel = false, TopMost = true };
+            formttnv.FormBorderStyle = FormBorderStyle.None;
+            panel1.Controls.Add(formttnv);
+            formttnv.Show();
+        }
+
+        private void thôngTinThanhToánToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.BackgroundImage = null;
+            frmPayment formttnv = new frmPayment() { TopLevel = false, TopMost = true };
+            formttnv.FormBorderStyle = FormBorderStyle.None;
+            panel1.Controls.Add(formttnv);
+            formttnv.Show();
+        }
+
+        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.BackgroundImage = null;
+            frmDoiMatKhau formttnv = new frmDoiMatKhau() { TopLevel = false, TopMost = true };
+            formttnv.FormBorderStyle = FormBorderStyle.None;
+            panel1.Controls.Add(formttnv);
+            formttnv.Show();
+        }
     }
 }

@@ -47,7 +47,7 @@
             // comboBoxCustomers
             // 
             this.comboBoxCustomers.FormattingEnabled = true;
-            this.comboBoxCustomers.Location = new System.Drawing.Point(144, 90);
+            this.comboBoxCustomers.Location = new System.Drawing.Point(23, 93);
             this.comboBoxCustomers.Name = "comboBoxCustomers";
             this.comboBoxCustomers.Size = new System.Drawing.Size(354, 24);
             this.comboBoxCustomers.TabIndex = 1;

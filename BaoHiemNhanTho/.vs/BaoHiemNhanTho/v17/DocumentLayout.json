@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\baohiemnhantho\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,24 +23,8 @@
       "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmthongtinnguoithan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmthongtinnguoithan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\baohiemnhantho\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\baohiemnhantho\\frmthongtinbaohiemsohuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmthongtinbaohiemsohuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\baohiemnhantho\\frmthongtinnguoithan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmthongtinnguoithan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|d:\\e\\dai hoc\\hk7\\nosql\\doan\\bhnt\\baohiemnhantho\\baohiemnhantho\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C5EA21F0-849B-452B-9EAF-619CF51338D7}|BaoHiemNhanTho\\BaoHiemNhanTho.csproj|solutionrelative:baohiemnhantho\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,99 +39,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmDangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDangNhap.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmDangNhap.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDangNhap.cs [Design]",
-              "RelativeToolTip": "BaoHiemNhanTho\\frmDangNhap.cs [Design]",
+              "Title": "frmDoiMatKhau.cs",
+              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmDoiMatKhau.cs",
+              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDoiMatKhau.cs",
+              "RelativeToolTip": "BaoHiemNhanTho\\frmDoiMatKhau.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T04:41:24.977Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmTrangChu.cs",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmTrangChu.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmTrangChu.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmTrangChu.cs",
-              "RelativeToolTip": "BaoHiemNhanTho\\frmTrangChu.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAADwv1oAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T04:33:45.257Z",
+              "WhenOpened": "2024-10-25T12:01:32.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmDangNhap.cs",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDangNhap.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmDangNhap.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDangNhap.cs",
-              "RelativeToolTip": "BaoHiemNhanTho\\frmDangNhap.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwCMAAAB4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T04:22:19.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmTrangChu.cs [Design]",
               "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmTrangChu.cs",
               "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmTrangChu.cs",
               "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmTrangChu.cs [Design]",
               "RelativeToolTip": "BaoHiemNhanTho\\frmTrangChu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T04:15:51.475Z",
+              "WhenOpened": "2024-10-25T11:59:09.118Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmThongTinBaoHiemSoHuu.cs [Design]",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmThongTinBaoHiemSoHuu.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmThongTinBaoHiemSoHuu.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmThongTinBaoHiemSoHuu.cs [Design]",
-              "RelativeToolTip": "BaoHiemNhanTho\\frmThongTinBaoHiemSoHuu.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmDangNhap.cs",
+              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDangNhap.cs",
+              "RelativeToolTip": "BaoHiemNhanTho\\frmDangNhap.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAwwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T04:11:45.591Z"
+              "WhenOpened": "2024-10-25T04:22:19.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\Customer.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\Customer.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\Customer.cs",
-              "RelativeToolTip": "BaoHiemNhanTho\\Customer.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEIAAAAFAAAA",
+              "Title": "frmPayment.cs [Design]",
+              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmPayment.cs",
+              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmPayment.cs",
+              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmPayment.cs [Design]",
+              "RelativeToolTip": "BaoHiemNhanTho\\frmPayment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T03:52:35.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmThongTinNguoiThan.cs [Design]",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmThongTinNguoiThan.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmThongTinNguoiThan.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmThongTinNguoiThan.cs [Design]",
-              "RelativeToolTip": "BaoHiemNhanTho\\frmThongTinNguoiThan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:17:01.12Z",
+              "WhenOpened": "2024-10-25T11:44:39.771Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmThongTinNguoiThan.cs",
-              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmThongTinNguoiThan.cs",
-              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmThongTinNguoiThan.cs",
-              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmThongTinNguoiThan.cs",
-              "RelativeToolTip": "BaoHiemNhanTho\\frmThongTinNguoiThan.cs",
-              "ViewState": "AQIAAMgBAAAAAAAAAAAmwCQCAAANAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\Program.cs",
+              "RelativeDocumentMoniker": "BaoHiemNhanTho\\Program.cs",
+              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\Program.cs",
+              "RelativeToolTip": "BaoHiemNhanTho\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T09:33:38.581Z"
+              "WhenOpened": "2024-10-25T11:03:42.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDoiMatKhau.cs [Design]",
+              "DocumentMoniker": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "BaoHiemNhanTho\\frmDoiMatKhau.cs",
+              "ToolTip": "D:\\E\\DAI HOC\\HK7\\NoSQL\\DoAn\\BHNT\\BaoHiemNhanTho\\BaoHiemNhanTho\\frmDoiMatKhau.cs [Design]",
+              "RelativeToolTip": "BaoHiemNhanTho\\frmDoiMatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:59:35.66Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

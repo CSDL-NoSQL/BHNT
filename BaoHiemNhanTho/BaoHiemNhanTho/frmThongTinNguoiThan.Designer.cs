@@ -46,19 +46,19 @@
             this.txtPolicyNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtRelationship = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtBeneficiaryName = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtPercentage = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtRelationship = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtBeneficiaryName = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.buttonEditPolicy = new System.Windows.Forms.Button();
+            this.buttonDeletePolicy = new System.Windows.Forms.Button();
+            this.buttonAddBeneficiary = new System.Windows.Forms.Button();
             this.buttonEditBeneficiary = new System.Windows.Forms.Button();
             this.buttonDeleteBeneficiary = new System.Windows.Forms.Button();
             this.buttonAddPolicy = new System.Windows.Forms.Button();
-            this.buttonAddBeneficiary = new System.Windows.Forms.Button();
-            this.buttonEditPolicy = new System.Windows.Forms.Button();
-            this.buttonDeletePolicy = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNguoiThan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInsurancePolicies)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -241,38 +241,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
-            // txtRelationship
-            // 
-            this.txtRelationship.Location = new System.Drawing.Point(186, 81);
-            this.txtRelationship.Name = "txtRelationship";
-            this.txtRelationship.Size = new System.Drawing.Size(100, 22);
-            this.txtRelationship.TabIndex = 17;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 16);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "relationship";
-            // 
-            // txtBeneficiaryName
-            // 
-            this.txtBeneficiaryName.Location = new System.Drawing.Point(186, 41);
-            this.txtBeneficiaryName.Name = "txtBeneficiaryName";
-            this.txtBeneficiaryName.Size = new System.Drawing.Size(100, 22);
-            this.txtBeneficiaryName.TabIndex = 15;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(56, 44);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 16);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Benefiname";
-            // 
             // txtPercentage
             // 
             this.txtPercentage.Location = new System.Drawing.Point(186, 122);
@@ -289,6 +257,38 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "percentage";
             // 
+            // txtRelationship
+            // 
+            this.txtRelationship.Location = new System.Drawing.Point(186, 81);
+            this.txtRelationship.Name = "txtRelationship";
+            this.txtRelationship.Size = new System.Drawing.Size(100, 22);
+            this.txtRelationship.TabIndex = 17;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(56, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "relationship";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(56, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 16);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Benefiname";
+            // 
+            // txtBeneficiaryName
+            // 
+            this.txtBeneficiaryName.Location = new System.Drawing.Point(186, 41);
+            this.txtBeneficiaryName.Name = "txtBeneficiaryName";
+            this.txtBeneficiaryName.Size = new System.Drawing.Size(100, 22);
+            this.txtBeneficiaryName.TabIndex = 15;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.buttonEditPolicy);
@@ -303,6 +303,42 @@
             this.groupBox2.TabIndex = 36;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chức Năng";
+            // 
+            // buttonEditPolicy
+            // 
+            this.buttonEditPolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonEditPolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditPolicy.Location = new System.Drawing.Point(26, 86);
+            this.buttonEditPolicy.Name = "buttonEditPolicy";
+            this.buttonEditPolicy.Size = new System.Drawing.Size(133, 52);
+            this.buttonEditPolicy.TabIndex = 8;
+            this.buttonEditPolicy.Text = "Sửa Bảo Hiểm";
+            this.buttonEditPolicy.UseVisualStyleBackColor = true;
+            this.buttonEditPolicy.Click += new System.EventHandler(this.buttonEditPolicy_Click);
+            // 
+            // buttonDeletePolicy
+            // 
+            this.buttonDeletePolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonDeletePolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDeletePolicy.Location = new System.Drawing.Point(26, 144);
+            this.buttonDeletePolicy.Name = "buttonDeletePolicy";
+            this.buttonDeletePolicy.Size = new System.Drawing.Size(133, 52);
+            this.buttonDeletePolicy.TabIndex = 7;
+            this.buttonDeletePolicy.Text = "Xóa Bảo Hiểm";
+            this.buttonDeletePolicy.UseVisualStyleBackColor = true;
+            this.buttonDeletePolicy.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // buttonAddBeneficiary
+            // 
+            this.buttonAddBeneficiary.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.buttonAddBeneficiary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAddBeneficiary.Location = new System.Drawing.Point(26, 245);
+            this.buttonAddBeneficiary.Name = "buttonAddBeneficiary";
+            this.buttonAddBeneficiary.Size = new System.Drawing.Size(149, 52);
+            this.buttonAddBeneficiary.TabIndex = 6;
+            this.buttonAddBeneficiary.Text = "Thêm Người Thụ Hưởng";
+            this.buttonAddBeneficiary.UseVisualStyleBackColor = true;
+            this.buttonAddBeneficiary.Click += new System.EventHandler(this.buttonAddBeneficiary_Click);
             // 
             // buttonEditBeneficiary
             // 
@@ -339,42 +375,6 @@
             this.buttonAddPolicy.Text = "Thêm Bảo Hiểm";
             this.buttonAddPolicy.UseVisualStyleBackColor = true;
             this.buttonAddPolicy.Click += new System.EventHandler(this.buttonAddPolicy_Click);
-            // 
-            // buttonAddBeneficiary
-            // 
-            this.buttonAddBeneficiary.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.buttonAddBeneficiary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonAddBeneficiary.Location = new System.Drawing.Point(26, 245);
-            this.buttonAddBeneficiary.Name = "buttonAddBeneficiary";
-            this.buttonAddBeneficiary.Size = new System.Drawing.Size(149, 52);
-            this.buttonAddBeneficiary.TabIndex = 6;
-            this.buttonAddBeneficiary.Text = "Thêm Người Thụ Hưởng";
-            this.buttonAddBeneficiary.UseVisualStyleBackColor = true;
-            this.buttonAddBeneficiary.Click += new System.EventHandler(this.buttonAddBeneficiary_Click);
-            // 
-            // buttonEditPolicy
-            // 
-            this.buttonEditPolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.buttonEditPolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditPolicy.Location = new System.Drawing.Point(26, 86);
-            this.buttonEditPolicy.Name = "buttonEditPolicy";
-            this.buttonEditPolicy.Size = new System.Drawing.Size(133, 52);
-            this.buttonEditPolicy.TabIndex = 8;
-            this.buttonEditPolicy.Text = "Sửa Bảo Hiểm";
-            this.buttonEditPolicy.UseVisualStyleBackColor = true;
-            this.buttonEditPolicy.Click += new System.EventHandler(this.buttonEditPolicy_Click);
-            // 
-            // buttonDeletePolicy
-            // 
-            this.buttonDeletePolicy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.buttonDeletePolicy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonDeletePolicy.Location = new System.Drawing.Point(26, 144);
-            this.buttonDeletePolicy.Name = "buttonDeletePolicy";
-            this.buttonDeletePolicy.Size = new System.Drawing.Size(133, 52);
-            this.buttonDeletePolicy.TabIndex = 7;
-            this.buttonDeletePolicy.Text = "Xóa Bảo Hiểm";
-            this.buttonDeletePolicy.UseVisualStyleBackColor = true;
-            this.buttonDeletePolicy.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmThongTinNguoiThan
             // 
