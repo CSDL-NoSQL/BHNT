@@ -92,6 +92,7 @@ namespace BaoHiemNhanTho
             this.Close();
         }
 
+
         private void thôngTinBồiThườngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
@@ -120,6 +121,7 @@ namespace BaoHiemNhanTho
             formttnv.FormBorderStyle = FormBorderStyle.None;
             panel1.Controls.Add(formttnv);
             formttnv.Show();
+
        
 
         private void quảnLýBáoCáoThốngKêToolStripMenuItem_Click(object sender, EventArgs e)
@@ -140,6 +142,7 @@ namespace BaoHiemNhanTho
             formht.FormBorderStyle = FormBorderStyle.None;
             panel1.Controls.Add(formht);
             formht.Show();
+
         }
     }
 }

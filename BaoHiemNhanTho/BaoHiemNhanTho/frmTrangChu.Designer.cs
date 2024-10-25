@@ -249,8 +249,15 @@
         private System.Windows.Forms.ToolStripMenuItem thôngTinNgườiThânToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýDanhSáchBảoHiểmToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinBảoHiểmSởHữuToolStripMenuItem;
+
         private System.Windows.Forms.ToolStripMenuItem thôngTinBồiThườngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinThanhToánToolStripMenuItem;
+
+
+        private System.Windows.Forms.ToolStripMenuItem thôngTinBồiThườngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinThanhToánToolStripMenuItem;
+
         private System.Windows.Forms.ToolStripMenuItem quảnLýBáoCáoThốngKêToolStripMenuItem;
+
     }
 }

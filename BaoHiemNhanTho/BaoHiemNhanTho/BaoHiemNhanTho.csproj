@@ -153,11 +153,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+
     <Compile Include="frmClaim.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmClaim.Designer.cs">
       <DependentUpon>frmClaim.cs</DependentUpon>
+
+
+    <Compile Include="frmClaim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClaim.Designer.cs">
+      <DependentUpon>frmClaim.cs</DependentUpon>
+
+    <Compile Include="frmBaoCaoThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCaoThongKe.Designer.cs">
+      <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
+
     </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
@@ -165,11 +180,27 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+
     <Compile Include="frmDoiMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDoiMatKhau.Designer.cs">
       <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+
+
+    <Compile Include="frmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoiMatKhau.Designer.cs">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+
+    <Compile Include="frmHoTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoTro.Designer.cs">
+      <DependentUpon>frmHoTro.cs</DependentUpon>
+
+
     </Compile>
     <Compile Include="frmKhachHang.cs">
       <SubType>Form</SubType>
@@ -221,14 +252,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+
     <EmbeddedResource Include="frmClaim.resx">
       <DependentUpon>frmClaim.cs</DependentUpon>
+
+
+    <EmbeddedResource Include="frmClaim.resx">
+      <DependentUpon>frmClaim.cs</DependentUpon>
+
+    <EmbeddedResource Include="frmBaoCaoThongKe.resx">
+      <DependentUpon>frmBaoCaoThongKe.cs</DependentUpon>
+
+
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="frmDoiMatKhau.resx">
       <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+
+
+    <EmbeddedResource Include="frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+
+    <EmbeddedResource Include="frmHoTro.resx">
+      <DependentUpon>frmHoTro.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
